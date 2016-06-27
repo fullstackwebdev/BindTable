@@ -183,7 +183,7 @@ function updateLocalRows(table, change){
     deleteLocalRow(table, change.old_val.id);
   }
   else{
-    upsertLocalRow(table, change.new_val);
+    upsertLocalRow(table, change);
   }
 }
 
